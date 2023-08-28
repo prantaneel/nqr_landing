@@ -18,6 +18,7 @@ export default function Home() {
       {Footer()}
       <script
         src="/static/animation_physics.js"
+        defer
       />
     </main>
   )
