@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,400;0,500;0,600;1,400&family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 *{
     font-family: 'JetBrains Mono', monospace;
     margin: 0;
     background-color: #060522;
+}
+*::-webkit-scrollbar{
+    display: none;
 }
 .text-blue-100{
     color: rgb(228, 237, 255);
@@ -15,6 +19,9 @@
 }
 .justify-center{
     margin: auto;
+}
+.margin-zero{
+    margin: 0;
 }
 .width-60{
     width: 60%;
@@ -137,10 +144,17 @@
     margin: auto;
 }
 .super-large-font{
+    font-size: 7rem;
+    font-family: "Poppins";
+}
+.medium-font{
     font-size: 4rem;
 }
 .prevent-selection{
     pointer-events: stroke;
+}
+.padding-zero{
+    padding: 0%;
 }
 .button-style-1{
     background-color: rgba(255, 255, 255, 0.197);
@@ -154,3 +168,11 @@
 .button-hover:hover{
     background-color: rgb(123, 130, 250);
 }
+#canvas1 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff00;
+    z-index: 9;
+  }
